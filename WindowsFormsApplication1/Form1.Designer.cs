@@ -51,6 +51,7 @@
             this.Button_connect.TabIndex = 1;
             this.Button_connect.Text = "Connect";
             this.Button_connect.UseVisualStyleBackColor = true;
+            this.Button_connect.Click += new System.EventHandler(this.Button_connect_Click);
             // 
             // Address
             // 
